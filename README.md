@@ -48,9 +48,9 @@ I enjoy turning ideas into apps that make a real-world impact — especially in 
 | Project | Description | Link |
 |----------|--------------|------|
 | 🛒 **Multi-Vendor Shopping App (Flutter + Firebase)** | Amazon-style shopping app with admin & user panels, Riverpod state management, AdMob, and News API integration. | [GitHub](https://github.com/dhinadts/flutter_multi_vendor_app) |
-| 🍔 **Food Ordering & Table Booking App** | Flutter + Firebase app (Swiggy-like) with admin control, Firestore, Firebase Storage, and authentication. | [GitHub](https://github.com/dhinadts/flutter_food_booking_app) |
+| 🍔 **Food Ordering & Table Booking App** | Flutter + Firebase app (Swiggy-like) with admin control, Firestore, Firebase Storage, and authentication. | [GitHub](https://github.com/dhinadts/food_app) |
 | 🧠 **AI Sales Insight App** | Riverpod-based Flutter app for AI-driven business insights using Google Sheets as backend. | [GitHub](https://github.com/dhinadts/flutter_ai_sales_app) |
-| ⌨️ **Flutter Tamil Keyboard** | Self-motivated project implementing custom Tamil keyboard layouts and shared preferences. | [GitHub](https://github.com/dhinadts/flutter_tamil_keyboard) |
+| ⌨️ **Flutter Tamil Keyboard** | Self-motivated project implementing custom Tamil keyboard layouts and shared preferences. | [GitHub](https://github.com/dhinadts/tamil__keyboard) |
 | 💬 **XBotAI (ReactJS)** | AI-powered chatbot with smooth UI and clean state handling. | [Crio.do Project](https://crio.do/projects/xbotai) |
 
 ---
@@ -65,11 +65,10 @@ I enjoy turning ideas into apps that make a real-world impact — especially in 
 
 **Junior Software Developer – Nithra Edu Solutions Pvt. Ltd.**  
 *Jun 2019 – Jul 2020*  
-- Built **iOS apps** for Thirukkural, Tamil Dictionary, and Tamil Proverbs using Flutter.  
-- [🔗 Thirukkural](https://play.google.com/store/apps/details?id=com.nithra.thirukkural)  
-  | [🔗 Dictionary](https://play.google.com/store/apps/details?id=com.nithra.dictionary)  
-  | [🔗 Proverbs](https://play.google.com/store/apps/details?id=com.nithra.proverbs)
-
+- Built **iOS apps** for Thirukkural, Tamil Dictionary, and Tamil Proverbs using Flutter.
+[🔗 Thirukkural](https://apps.apple.com/in/app/thirukkural-offline-in-tamil/id1493752033)
+[🔗 Tamil Dictionary](https://apps.apple.com/in/app/nithra-tamil-dictionary/id1499946335)
+[🔗 Tamil Proverbs](https://apps.apple.com/in/app/tamil-proverbs/id1508276958)
 ---
 
 ### 📈 GitHub Stats
@@ -83,7 +82,7 @@ I enjoy turning ideas into apps that make a real-world impact — especially in 
 ### 🌎 Connect With Me  
 <p align="center">
   <a href="mailto:dhinadts@gmail.com"><img src="https://img.shields.io/badge/Email-Dhinakaran%20K-red?style=for-the-badge&logo=gmail" /></a>
-  <a href="https://www.linkedin.com/in/dhinakaran-k"><img src="https://img.shields.io/badge/LinkedIn-Dhinakaran%20K-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://www.linkedin.com/in/dhinakaran-kalaimani"><img src="https://img.shields.io/badge/LinkedIn-Dhinakaran%20K-blue?style=for-the-badge&logo=linkedin" /></a>
   <a href="https://github.com/dhinadts"><img src="https://img.shields.io/badge/GitHub-dhinadts-black?style=for-the-badge&logo=github" /></a>
 </p>
 
