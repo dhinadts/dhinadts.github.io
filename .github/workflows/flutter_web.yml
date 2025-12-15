@@ -19,13 +19,23 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.8'
+          # Option 1: Use latest stable (recommended)
           channel: stable
+
+          # Option 2: Use a known working version
+          # flutter-version: '3.22.0'  # or '3.19.0' or '3.16.0'
+
+          # Option 3: Try without specifying channel if using version
+          # flutter-version: '3.22.8'
+          # channel: 'any'  # or remove channel line entirely
+
+      - name: Show Flutter Version
+        run: flutter --version
 
       - name: Enable Web
         run: flutter config --enable-web
 
-      - name: Pub Get
+      - name: Install Dependencies
         run: flutter pub get
 
       - name: Build Web
@@ -35,8 +45,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/web
+          publish_dir: ./build/web
           publish_branch: gh-pages
           force_orphan: true
           enable_jekyll: false
-
