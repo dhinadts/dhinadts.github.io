@@ -13,31 +13,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout code
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      # Setup Flutter
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.22.8'
           channel: stable
 
-      # Enable web
-      - name: Enable Flutter Web
+      - name: Enable Web
         run: flutter config --enable-web
 
-      # Install dependencies
-      - name: Install dependencies
+      - name: Pub Get
         run: flutter pub get
 
-      # Build Flutter web
       - name: Build Web
         run: flutter build web --release
 
-      # Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
