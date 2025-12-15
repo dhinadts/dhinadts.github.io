@@ -6,12 +6,14 @@ class ResumeCard extends StatelessWidget {
   final String title;
   final String subtitle;
   final String content;
+  final String? link;
 
   const ResumeCard({
     super.key,
     required this.title,
     required this.subtitle,
     required this.content,
+    this.link,
   });
 
   // Universal link opener (works for web, android, ios, desktop)

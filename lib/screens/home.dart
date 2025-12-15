@@ -171,6 +171,37 @@ class HomeScreen extends ConsumerWidget {
                                 ],
                               ),
                             ),
+                            const SizedBox(height: 16),
+                            Text(
+                              'Ongoing Personal Projects',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 8),
+
+                            ResumeCard(
+                              title: 'DSP Lab – Digital Signal Processing',
+                              subtitle:
+                                  'Educational Flutter Application (In Progress)',
+                              content: '''
+• Interactive DSP learning platform
+• Signal Generator, FFT, Voice DSP
+• Real-time visualizations
+• Flutter & Audio Processing
+🔗 Link: https://github.com/dhinadts/dhinadts-learning-hub/tree/main/sampling_theorem
+''',
+                            ),
+
+                            ResumeCard(
+                              title: 'AI Sales Insight',
+                              subtitle: 'AI Forecasting App (In Progress)',
+                              content: '''
+• AI-driven sales prediction
+• Charts & analytics using fl_chart
+• Flutter + Firebase
+''',
+                            ),
+                            const SizedBox(width: 24),
                           ],
                         ),
                       ),
@@ -253,12 +284,45 @@ class HomeScreen extends ConsumerWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
+                    const SizedBox(height: 12),
+
                     for (final proj in resume.projects)
                       ResumeCard(
                         title: proj.name,
                         subtitle: proj.when,
                         content: proj.details,
                       ),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Ongoing Personal Projects',
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+
+                    ResumeCard(
+                      title: 'DSP Lab – Digital Signal Processing',
+                      subtitle: 'Educational Flutter Application (In Progress)',
+                      content: '''
+• Interactive DSP laboratory for students and educators
+• Signal Generator, FFT Analyzer, Voice DSP modules
+• Real-time waveform & spectrum visualization
+• Flutter, GetX, CustomPainter, Audio Processing
+''',
+                    ),
+
+                    ResumeCard(
+                      title: 'AI Sales Insight',
+                      subtitle: 'AI Forecasting & Analytics (In Progress)',
+                      content: '''
+• Sales forecasting & trend analysis using AI
+• Interactive charts using fl_chart
+• Time-series visualization & insights
+• Flutter, Firebase, AI/ML models
+''',
+                    ),
+
                     const SizedBox(height: 12),
                     Section(
                       title: 'Education',

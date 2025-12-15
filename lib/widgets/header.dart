@@ -35,7 +35,7 @@ class Header extends StatelessWidget {
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   SizedBox(height: 8),
-                  Row(
+                  /* Row(
                     children: [
                       Icon(Icons.location_on, size: 16),
                       SizedBox(width: 4),
@@ -45,14 +45,46 @@ class Header extends StatelessWidget {
                       SizedBox(width: 4),
                       Text(resume.phone),
                     ],
+                  ), */
+                  Wrap(
+                    spacing: 12,
+                    runSpacing: 6,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    children: [
+                      Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(Icons.location_on, size: 16),
+                          const SizedBox(width: 4),
+                          Text(resume.location),
+                        ],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(Icons.phone, size: 16),
+                          const SizedBox(width: 4),
+                          Text(resume.phone),
+                        ],
+                      ),
+                    ],
                   ),
+
                   SizedBox(height: 6),
-                  Row(
+                  /* Row(
                     children: [
                       Icon(Icons.email, size: 16),
                       SizedBox(width: 4),
 
                       Text(resume.email),
+                    ],
+                  ), */
+                  Wrap(
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    children: [
+                      const Icon(Icons.email, size: 16),
+                      const SizedBox(width: 4),
+                      Text(resume.email, overflow: TextOverflow.ellipsis),
                     ],
                   ),
                 ],
