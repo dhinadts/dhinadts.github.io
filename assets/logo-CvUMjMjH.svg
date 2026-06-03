@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">DHINADTS logo</title>
+  <defs>
+    <linearGradient id="gold" x1="20" x2="108" y1="18" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E39A"/>
+      <stop offset="0.45" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#9E7414"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="20" fill="#050505"/>
+  <path fill="url(#gold)" d="M28 22h35c27 0 47 18 47 42s-20 42-47 42H28V22Zm18 17v50h17c16 0 29-10 29-25S79 39 63 39H46Z"/>
+  <path fill="#fff" d="M50 43h15c14 0 25 8 25 21S79 85 65 85H50V43Zm11 11v20h5c7 0 12-4 12-10s-5-10-12-10h-5Z" opacity=".95"/>
+  <path fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M35 57H20m15 15H16m19-30H24"/>
+  <circle cx="20" cy="57" r="5" fill="#D4AF37"/>
+  <circle cx="16" cy="72" r="5" fill="#D4AF37"/>
+  <circle cx="24" cy="42" r="5" fill="#D4AF37"/>
+  <path fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M66 69h22M66 57h18M66 81h16"/>
+</svg>
